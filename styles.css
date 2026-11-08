@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: white;
+    background-color: #FFFFFF;
     font-family: "DM-Sans", sans-serif;
 }
 
@@ -65,3 +65,80 @@ main {
     right: -40px;
 }
 
+.boxessection {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    margin-top: 300px;
+}
+.rows {
+display: flex;
+flex-direction: column;
+gap: 40px;
+}
+.gradientbox {
+    background: linear-gradient(180deg, rgb(249, 137, 62) 0%, rgb(252, 44, 210) 100%);
+    color: white;
+    display: flex;
+    font-size: x-large;
+    font-weight: bolder;
+    padding: 40px;
+    align-items: center;
+}
+.box {
+    background-color: rgb(234, 234, 234);
+    width: 350px;
+    height: 275px;
+    border-radius: 10px;
+    position: relative;
+}
+svg {
+    fill: white;
+}
+.svgbg {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, rgb(249, 137, 62) 0%, rgb(252, 44, 210) 100%);
+  position: absolute;
+  top: -30px;
+  left: 30px;
+}
+.boxesbtn {
+    border: none;
+    color: rgb(233, 12, 115);
+    font-weight: bolder;
+    font-size: large;
+    background-color: rgb(234, 234, 234);
+    width: fit-content;
+}
+.textcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 50px;
+    padding-left: 25px;
+    line-height: 25px;
+    font-size: 18px;
+}
+.textcontainer p {
+    opacity: 50%;
+}
+.border {
+    border-radius: 0px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    background-color: rgb(10, 37, 54);
+    color: white;
+}
+footer .getstartedbtn{
+background: linear-gradient(180deg, rgb(29, 55, 253) 0%, rgb(252, 44, 210) 100%);
+}
